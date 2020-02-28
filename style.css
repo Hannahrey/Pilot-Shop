@@ -202,28 +202,28 @@ article {
 	margin: 130px 0 50px 0;
 }
 
-/* products */
+/* products and panel of 4 pics */
 
 
-.products{
+.photo_panels {
 	display: flex;
 	flex-flow: row wrap;
 }
 
 
-.product_wrapper {
+.photo_wrapper {
 	justify-content: space-between;
 	margin: 1%;
 	width: 23%;
 
 }
 
-.product_img img {
+.photo_img img {
 	max-width: 100%;
 	background-color: #f8f8f8;
 }
 
-.product_text {
+.caption_text {
 	text-align: center;
 	
 }
