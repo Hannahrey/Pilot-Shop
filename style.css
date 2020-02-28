@@ -253,3 +253,13 @@ article {
 	height: 150px;
 	font-size: 0.9rem;
 }
+
+.email_footer h3 {
+	display: inline-block;
+	margin: 65px 0;
+}
+
+.subscribe {
+	display: inline-block;
+}
+
