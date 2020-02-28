@@ -167,7 +167,7 @@ h6 {
 	overflow: visible;
 }
 
-.shop_now, .read_more {
+.white_button_no_background {
 	color: #FFFFFF;
 	border: 2px solid #FFFFFF;
 	padding: 15px;
@@ -243,4 +243,6 @@ article {
 	margin: 40px 0;
 	overflow: visible;
 }
+
+
 
