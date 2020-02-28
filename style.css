@@ -269,6 +269,7 @@ article {
 .email_footer h3 {
 	display: inline-block;
 	margin: 65px 20px;
+	letter-spacing: 0.2rem;
 }
 
 .subscribe {
@@ -283,3 +284,15 @@ article {
 	margin: 10px;
 
 }
+
+footer input::placeholder {
+	color: #5b9ec0;
+}
+
+input.white_button_no_background {
+	text-transform: uppercase;
+	font-weight: 600; 
+	letter-spacing: 0.05rem;
+}
+
+
