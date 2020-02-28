@@ -1,0 +1,231 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 600; 
+	letter-spacing: 0.05rem;
+}
+
+p {
+	text-transform: none;
+	font-size: 0.9rem;
+}
+
+h1, h2, h3, h4 {
+	color: #ffffff; 
+
+}
+
+
+h1 {
+	letter-spacing: 0.6rem;
+	font-size: 4rem;
+}
+
+h2 {
+	letter-spacing: 0.05rem;
+	font-size: 2.8rem;
+	font-weight: 500;
+}
+
+h3 {
+	letter-spacing: 0.05rem;
+}
+
+h4 {
+	letter-spacing: 0.05rem;
+	font-size: 1.4rem;
+	font-weight: 500;
+}
+
+
+h5 {
+	color: #000000;
+	font-size: 1.2rem;
+	letter-spacing: 0.05rem;
+}
+
+h6 {
+	font-size: 0.8rem;
+	
+}
+
+.text_center {
+	text-align: center;
+}
+
+/* container to set width of page content */	
+.container_main {
+	margin: auto;
+	width: 84%;
+	
+}
+
+/* top nav */
+.nav1 {
+	width: 100%;
+	background-color: #f8f8f8;
+	overflow: auto;
+	height: 50px;
+	font-size: 0.9rem;
+	
+}
+
+
+.top_nav_phone {
+	float: left;
+
+}
+
+.top_nav_content {
+	float: right;
+	
+}
+/* search box and button within top nav */	
+.search_store {
+	display: inline-block;
+	border: 1px;
+	border-color: #b7b7b7;
+}
+
+.search {
+	background-color: #f8f8f8;
+	border: 0;
+	padding: 0 0 0 5px;
+	text-transform: uppercase;
+	font-weight: 600; 
+	letter-spacing: 0.05rem;
+	width: 150px;
+	
+}	
+
+.nav1 a {
+	color: #b7b7b7;
+	margin: 14px 12px;
+}	
+
+	
+.nav1 form {
+	color: #b7b7b7;
+	margin: 14px 12px;
+}	
+
+/* currency dropdown within top nav */
+.currency {
+	margin: 14px 12px;
+}
+
+/* end of top nav */
+/* second nav */
+.nav2 {
+	width: 100%;
+	background-color: #ffffff;
+	overflow: auto;
+	height: 90px;
+	font-size: 0.9rem;
+	
+}
+
+.logo {
+	margin: 22px 0px;
+	display: inline-block;
+}
+
+.nav2_content {
+	float: right;
+	
+}
+
+.nav2 a {
+	color: #000000;
+	margin: 22px 12px;
+	padding: 10px;
+	font-size: 1rem;
+	border: 2px solid #FFFFFF;
+}	
+
+.nav2 a:hover {
+	border: 2px solid #000000;
+}	
+
+.home {
+	border: 2px solid #000000;
+	padding: 10px;
+}
+/* end of 2nd nav */
+
+/* start of background image section */
+main {
+	background-image: url("http://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide1_image.jpg?v=9240162744247295619");
+	width: 100%;
+	padding: 40px 0;
+	overflow: visible;
+}
+
+.shop_now {
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 120px;
+}
+
+/* 3 boxes */
+
+article {
+		display: flex;
+}
+
+.box {
+	background-color: #3287b1;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 10px 20px;
+	margin: 1%;
+	width: 28%;
+	position: relative;
+	top: 120px;
+	
+}
+
+/* featured text */
+
+.featured {
+	margin: 130px 0 50px 0;
+}
+
+/* products */
+
+
+.products{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+
+.product_wrapper {
+	justify-content: space-between;
+	margin: 1%;
+	width: 23%;
+
+}
+
+.product_img img {
+	max-width: 100%;
+	background-color: #f8f8f8;
+}
+
+.product_text {
+	text-align: center;
+	
+}
+
+
