@@ -244,5 +244,12 @@ article {
 	overflow: visible;
 }
 
+/* start of blue email footer */
 
-
+.email_footer {
+	width: 100%;
+	background-color: #5b9ec0;
+	overflow: auto;
+	height: 150px;
+	font-size: 0.9rem;
+}
