@@ -306,11 +306,39 @@ input.white_button_no_background {
 
 .contact_info_content {
 	float: left;
+	margin: 50px 0;
 
 }
 
-
-.latest_news_content, .facebook_content {
+.facebook_content, .latest_news_content { 
 	float: right;
+	display: inline-block;
+	
+}
+
+
+.facebook_content {
+	margin: 50px 0;
+	width: 20%;
+	
+}
+
+.latest_news_content {
+	width: 35%;
+	margin: 50px 40px;
+	
+}
+
+
+.latest_news_content p {
+	font-weight: lighter;
+	
+}
+
+.contact_info_content, p {
+	color: #c3c3c3;
+	line-height: 1.5rem;
 
 }
+
+
