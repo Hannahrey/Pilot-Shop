@@ -167,7 +167,7 @@ h6 {
 	overflow: visible;
 }
 
-.shop_now {
+.shop_now, .read_more {
 	color: #FFFFFF;
 	border: 2px solid #FFFFFF;
 	padding: 15px;
@@ -228,4 +228,15 @@ article {
 	
 }
 
+/* start of 2nd background image section */
+
+.mainpic2 {
+	background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/homepage_parallax_img.jpg?v=8113678875740113347");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	padding: 100px 0;
+	margin: 40px 0;
+	overflow: visible;
+}
 
