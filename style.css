@@ -14,6 +14,8 @@ a {
 p {
 	text-transform: none;
 	font-size: 0.9rem;
+	margin: 6px 0 20px 0;
+	line-height: 1.3rem;
 }
 
 h1, h2, h3, h4 {
@@ -52,6 +54,7 @@ h5 {
 
 h6 {
 	font-size: 0.8rem;
+	margin: 10px 0 0 0;
 	
 }
 
@@ -300,7 +303,7 @@ input.white_button_no_background {
 	width: 100%;
 	background-color: #3b3442;
 	overflow: auto;
-	height: 350px;
+
 	font-size: 0.9rem;
 }
 
@@ -324,7 +327,7 @@ input.white_button_no_background {
 }
 
 .latest_news_content {
-	width: 35%;
+	width: 40%;
 	margin: 50px 40px;
 	
 }
@@ -332,13 +335,20 @@ input.white_button_no_background {
 
 .latest_news_content p {
 	font-weight: lighter;
-	
-}
-
-.contact_info_content, p {
 	color: #c3c3c3;
+}
+
+.contact_info_content p {
+	
 	line-height: 1.5rem;
+	color: #c3c3c3;
 
 }
 
+.second_footer h5 {
+	color: #FFFFFF;
+	text-transform: none;
+	margin: 0;
+	font-size: 0.9rem;
+}
 
