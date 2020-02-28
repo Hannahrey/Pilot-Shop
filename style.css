@@ -358,4 +358,17 @@ img {
 }
 
 
+/* bottom footer */
+
+.bottom_footer {
+	width: 100%;
+	background-color: #342e3a;
+	font-size: 0.9rem;
+}
+
+.copyright {
+	color: #c3c3c3;
+	padding: 15px 0;
+	margin: 0;
+}
 
