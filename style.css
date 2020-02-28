@@ -55,6 +55,10 @@ h6 {
 	
 }
 
+input {
+	border: 0;
+}
+
 .text_center {
 	text-align: center;
 }
@@ -85,24 +89,30 @@ h6 {
 .top_nav_content {
 	float: right;
 	
+	
 }
 /* search box and button within top nav */	
 .search_store {
 	display: inline-block;
-	border: 1px;
-	border-color: #b7b7b7;
+	margin: 0;
 }
 
 .search {
 	background-color: #f8f8f8;
-	border: 0;
-	padding: 0 0 0 5px;
+	padding: 11px 0 15px 15px;
+	border-left: 1px solid #b7b7b7;
 	text-transform: uppercase;
 	font-weight: 600; 
 	letter-spacing: 0.05rem;
 	width: 150px;
+
 	
 }	
+
+.search_button {
+	font-family: inherit;
+	background-color: #f8f8f8;
+}
 
 .nav1 a {
 	color: #b7b7b7;
@@ -112,7 +122,7 @@ h6 {
 	
 .nav1 form {
 	color: #b7b7b7;
-	margin: 14px 12px;
+	margin: 0px 12px;
 }	
 
 /* currency dropdown within top nav */
