@@ -261,7 +261,6 @@ article {
 .email_footer {
 	width: 100%;
 	background-color: #5b9ec0;
-	overflow: auto;
 	height: 150px;
 	font-size: 0.9rem;
 }
@@ -295,4 +294,23 @@ input.white_button_no_background {
 	letter-spacing: 0.05rem;
 }
 
+/* start of dark grey second footer */
 
+.second_footer {
+	width: 100%;
+	background-color: #3b3442;
+	overflow: auto;
+	height: 350px;
+	font-size: 0.9rem;
+}
+
+.contact_info_content {
+	float: left;
+
+}
+
+
+.latest_news_content, .facebook_content {
+	float: right;
+
+}
