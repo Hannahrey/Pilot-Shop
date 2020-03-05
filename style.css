@@ -258,6 +258,13 @@ article {
   display: inline-block;
 }
 
+.envelope_email {
+	display: inline-block;
+	width: 60px;
+  vertical-align: middle;
+
+}
+
 .enter_email {
   width: 530px;
   height: 30px;
@@ -352,7 +359,8 @@ img {
 	right: 20px;
 	bottom: 0;
 	border-top-left-radius: 9px;
-	border-top-right-radius: 9px;
+  border-top-right-radius: 9px;
+  
 }
 
 .contact_us h4 {
@@ -361,7 +369,8 @@ img {
 	font-size: 0.9rem;
 	margin: 17px 0;
 	display: inline-block;
-	padding: 0 16px 0 8px; 
+  padding: 0 16px 0 8px; 
+  vertical-align: middle;
 
 }
 
@@ -369,6 +378,7 @@ img {
 	display: inline-block;
 	width: 20px;
 	padding: 0 8px 0 16px;
-	margin: 5px 0;
+	margin: 5px 0 2px 0;
+  vertical-align: middle;
 
 }
