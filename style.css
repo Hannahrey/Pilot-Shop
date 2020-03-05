@@ -293,7 +293,6 @@ input.white_button_no_background {
 .facebook_content,
 .latest_news_content {
   float: right;
-  display: inline-block;
 }
 
 .facebook_content {
@@ -347,7 +346,7 @@ img {
 
 .contact_us {
 	position: fixed;
-	width: 120px;
+	width: auto;
 	background-color:  #5b9ec0;
 	z-index: 6;
 	right: 20px;
@@ -361,5 +360,15 @@ img {
 	text-align: center;
 	font-size: 0.9rem;
 	margin: 17px 0;
+	display: inline-block;
+	padding: 0 16px 0 8px; 
+
+}
+
+.envelope_icon {
+	display: inline-block;
+	width: 20px;
+	padding: 0 8px 0 16px;
+	margin: 5px 0;
 
 }
